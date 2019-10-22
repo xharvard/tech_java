@@ -18,7 +18,7 @@ public class Main {
         List<String> words2 = new ArrayList<>();
 
         System.out.println("pride-and-prejudice.txt");
-        if(FileOperator.readFile("src\\pride-and-prejudice.txt", words1)){
+        if(FileOperator.readFile("src\\main\\java\\pride-and-prejudice.txt", words1)){
             System.out.println("total words: " + words1.size());
 
             BSTSet<String> set1 = new BSTSet<>();
@@ -30,7 +30,7 @@ public class Main {
 
         System.out.println();
         System.out.println("a-tale-of-two-cities.txt");
-        if(FileOperator.readFile("src\\a-tale-of-two-cities.txt", words2)){
+        if(FileOperator.readFile("src\\main\\java\\a-tale-of-two-cities.txt", words2)){
             System.out.println("total words: " + words2.size());
 
             BSTSet<String> set2 = new BSTSet<>();
