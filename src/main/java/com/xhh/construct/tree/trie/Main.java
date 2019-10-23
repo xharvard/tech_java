@@ -7,7 +7,8 @@ import com.xhh.construct.set.BSTSet;
 import com.xhh.construct.set.FileOperator;
 
 /**
- * Trie：字典树，多叉树
+ * Trie：字典树，多叉树,属于前缀树。多应用于插入、查询操作
+ * 局限性：空间    解决方案：压缩Trie、三分搜索Trie
  *
  */
 public class Main {
